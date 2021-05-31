@@ -1,6 +1,6 @@
-import P from 'prop-types';
-import * as Styled from './styles';
 import { KeyboardArrowUp } from '@styled-icons/material-outlined/KeyboardArrowUp';
+
+import * as Styled from './styles';
 
 export const GoTop = () => {
   return (
