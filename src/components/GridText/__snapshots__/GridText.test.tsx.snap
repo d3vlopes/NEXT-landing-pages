@@ -1,6 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GridText /> should render with background 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  width: 100%;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c4 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -45,27 +66,6 @@ exports[`<GridText /> should render with background 1`] = `
   -webkit-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
-}
-
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #FFFFFF;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 @media (max-width:768px) {
@@ -154,6 +154,27 @@ exports[`<GridText /> should render with background 1`] = `
 `;
 
 exports[`<GridText /> should render without background 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  width: 100%;
+}
+
+.c0 {
+  background: #FFFFFF;
+  color: #0A1128;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .c4 {
   color: #0A1128;
   font-size: 6.4rem;
@@ -198,27 +219,6 @@ exports[`<GridText /> should render without background 1`] = `
   -webkit-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
-}
-
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
-  width: 100%;
-}
-
-.c0 {
-  background: #FFFFFF;
-  color: #0A1128;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 @media (max-width:768px) {

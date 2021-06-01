@@ -1,4 +1,8 @@
-export const mapMenu = (menu = {}) => {
+import { MenuLinkProps } from '../components/MenuLink';
+import { PageData } from '../templates/Home';
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const mapMenu = (menu = {} as any): PageData['menu'] => {
   const {
     open_in_new_tab: newTab = false,
     logo_text: text = '',
@@ -17,8 +21,8 @@ export const mapMenu = (menu = {}) => {
   };
 };
 
-export const mapMenuLinks = (links = []) => {
-  return links.map((item) => {
+export const mapMenuLinks = (links = []): MenuLinkProps[] => {
+  return links.map((item): MenuLinkProps => {
     const {
       open_in_new_tab: newTab = false,
       link_text: children = '',

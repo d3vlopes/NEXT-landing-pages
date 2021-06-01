@@ -23,12 +23,11 @@ export type PageData = {
   sections: SectionProps[];
 };
 
-export type SectionProps = (
+export type SectionProps =
   | GridImageProps
   | GridTextProps
   | GridTwoColumnsProps
-  | GridContentProps
-) & { component: string };
+  | GridContentProps;
 
 export type HomeProps = {
   data: PageData[];

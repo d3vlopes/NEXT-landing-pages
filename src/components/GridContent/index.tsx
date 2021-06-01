@@ -9,6 +9,7 @@ export type GridContentProps = {
   html: string;
   background?: boolean;
   sectionId?: string;
+  component?: string;
 };
 
 export const GridContent = ({
