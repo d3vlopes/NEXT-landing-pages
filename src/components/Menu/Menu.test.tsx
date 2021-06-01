@@ -4,6 +4,7 @@ import { Menu } from '.';
 
 import linksMock from '../NavLinks/mock';
 import { theme } from '../../styles/theme';
+
 const logoData = {
   text: 'Logo',
   link: '#target',
@@ -23,9 +24,7 @@ describe('<Menu />', () => {
   });
 
   it('should render menu mobile and button for open and close the menu', () => {
-    const { container } = renderTheme(
-      <Menu links={linksMock} logoData={logoData} />,
-    );
+    renderTheme(<Menu links={linksMock} logoData={logoData} />);
 
     const button = screen.getByLabelText('Open/Close menu');
     const menuContainer = button.nextSibling;
