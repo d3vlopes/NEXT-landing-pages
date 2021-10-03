@@ -1,5 +1,5 @@
 ## Sobre o projeto
-Criador de landing pages criado durante o curso <a href="https://www.udemy.com/course/curso-de-reactjs-nextjs-completo-do-basico-ao-avancado" target="_blank">NextJS completo do básico ao avançado</a>.
+Criador de landing pages criado durante o curso <a href="https://www.udemy.com/course/curso-de-reactjs-nextjs-completo-do-basico-ao-avancado" target="_blank">Curso de React.Js + Next.Js completo do básico ao avançado</a>.
 <br />
 Durante o projeto foram utilizados ferramentas como:
 - [NextJS](https://nextjs.org/)
